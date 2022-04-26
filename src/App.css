@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+:root {
+    --background: #fff;
+    --text-primary: #000;
+    --text-secondary: #3c64e1;
+    --text-tertiary: #F47D27;
+    --accent: #800080;
+  }
+  [data-theme='dark'] {
+    --background: #000000;
+    --text-primary: #ffffff;
+    --text-secondary: #808080;
+    --text-tertiary: #F3BF99;
+    --accent: #8b0000;
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+    background-color: var(--background);
+    background-color: #000;
+}
+
+#root {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+ textarea,
+ select {
+    all: revert;
+ }
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+textarea {
+  overflow: auto;
+}
+
+::placeholder {
+    color: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-color-tertiary {
+  color: var(--text-tertiary)
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+p {
+ font-size: .75rem;
+ font-weight: 200;
+ line-height: 1rem;
+ text-align: justify;
+ hyphens: auto;
+}
+
+.app {
+    color: var(--text-primary);
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+  }
+
+.switch-theme-btn {
+    color: var(--text-primary);
+    background-color: var(--background);
+    border: 2px var(--text-primary) solid;
+    border-radius: 6px;
+    width: 317px;
+    transition: all .5s;
+  }
+
+.digital-business-card {
+  width: 317px;
+  background-color: var(--background);
+  border: 2px solid var(--text-primary);
+  border-radius: 10px;
+  transition: all .5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-section {
+  margin: 0 2rem;
+}

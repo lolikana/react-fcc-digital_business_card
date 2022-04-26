@@ -1,0 +1,30 @@
+.section-contact-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-btn {
+    width: 7rem;
+    height: 2rem;
+    color: #000;
+    background-color: #FFF;
+    box-shadow: 0 1px 3px rgb(159, 161, 162);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn.linkedin {
+    color: #FFF;
+    background-color: #5093E2;
+}
+
+.contact-icon {
+    font-size: 1rem;
+    margin-right: .5rem;
+}

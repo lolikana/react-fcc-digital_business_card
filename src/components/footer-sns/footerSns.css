@@ -1,0 +1,15 @@
+.footer-sns-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.footer-sns-icons div > a {
+    color: var(--text-primary)
+}
+
+.footer-sns-icon {
+    font-size: 1.6rem;
+}
