@@ -19,6 +19,12 @@ const App = () => {
     setTheme(newTheme);
   };
 
+  window.addEventListener('resize', () => {
+    // We execute the same script as before
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+
   return (
       <div className="app" data-theme={theme}>
         <button onClick={switchTheme} className="switch-theme-btn">

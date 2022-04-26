@@ -1,5 +1,7 @@
 .swiper-profile {
     border-radius: 7px 7px 0 0;
+    max-width: 317px;
+    max-height: 317px;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -10,15 +12,6 @@
 
 .swiper-slide-profile img {
     display: block;
-    width: 317px;
-    height: 317px;
-    object-fit: cover;
-}
-
-@media only screen and (max-width: 375px) {
-    .swiper-slide-profile img {
-        width: 170px;
-        height: 170px;
-        margin: auto;
-    }
+    object-fit: fill;
+    margin: auto;
 }
