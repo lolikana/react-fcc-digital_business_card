@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<a href="https://shiny-moonbeam-46a8da.netlify.app/">Live Preview</a> with Netlify.
+<a href="https://react-fcc-digital-business-card.vercel.app/">Live Preview</a> with Vercel.
 
 ## Available Scripts
 
